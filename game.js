@@ -40,12 +40,6 @@ const enemy = {
   width: 15,
   height: 15,
 };
-const extraGoals = {
-  x: Math.random() * cw,
-  y: Math.random() * ch,
-  width: 10,
-  height: 10,
-};
 
 let platforms = []
 for (i = 0; i < 15; i++) {
