@@ -134,7 +134,7 @@ function update() {
   ctx.fillStyle = '#fffb00';
   ctx.fillRect(goal.x, goal.y, goal.width, goal.height);
 
-  ctx.fillStyle = '#ff0000';
+  ctx.fillStyle = '#ff00dd';
   ctx.fillRect(enemy.x, enemy.y, enemy.width, enemy.height);
 
   requestAnimationFrame(update);
