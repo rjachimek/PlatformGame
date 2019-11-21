@@ -87,7 +87,6 @@ function update() {
     enemySpeed = 4;
   }
 
-
   if (player.x >= cw - player.width) {
     player.x = cw - player.width;
   } else if (player.x <= 0) {
