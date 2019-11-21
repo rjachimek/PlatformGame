@@ -1,7 +1,7 @@
 
 
 #  Simple Platformer
-Veeery simple platformer created during Coders Camp. 
+Veeery basic platformer
 
 **[Demo here](https://rjachimek.github.io/PlatformGame/.)**
 
