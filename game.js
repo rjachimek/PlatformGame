@@ -17,7 +17,7 @@ const friction = 0.9;
 let win = 0;
 let jmpVar = 0; 
 let enemySpeed = 4;
-let defeat = 3;
+let lifes = 3;
 let player = {
   x: cw / 2,
   y: ch - 20,
@@ -217,13 +217,13 @@ function goalCheck(shapeA, shapeB) {
 }
 
 function enemyCheck(shapeA, shapeB) {
-  if (defeat == 0) {
+  if (lifes == 0) {
     if (!alert("You lost")) {
       window.location.reload();
     }
   } else if (colCheck(shapeA, shapeB) !== null) {
-    defeat--;
-    document.getElementById("lifes").innerText = `lifes: ${defeat}`;
+    lifes--;
+    document.getElementById("lifes").innerText = `lifes: ${lifes}`;
     player = {
       x: cw / 2,
       y: ch - 100,
