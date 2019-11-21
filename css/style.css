@@ -2,25 +2,45 @@ body {
     background: #aaaaaa;
 }
 
-h1 .main {
+h1 {
+    text-align: center;
+}
+
+.main {
     box-sizing: border-box;
-    width: 1000px;
+    width: 500px;
     height: 100px;
     padding: 20px;
 }
 
 #lifes {
     box-sizing: padding-box;
-    width: 1000px;
+    width: 100px;
     height: 50px;
     padding-top: 20px;
+    padding-left: 20px;
 }
 
+h5{
+    box-sizing: content-box;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
 canvas {
     border: 10px solid #a04848;
     background: #55517a;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 footer {
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-top: 1px solid white;
+    text-align: center;
     background: #aaaaaa;
 }
