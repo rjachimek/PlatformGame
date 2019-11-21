@@ -1,5 +1,10 @@
+body{
+    background: #aaaaaa;
+  }
+
 h1 {}
 
 canvas {
-    border: 1px solid #aaaaaa;
+    border: 10px solid #a04848;
+    background: #55517a;
 }
