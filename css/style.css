@@ -1,8 +1,8 @@
 body {
     background: #aaaaaa;
 }
-h1
-.main {
+
+h1 .main {
     box-sizing: border-box;
     width: 1000px;
     height: 100px;
@@ -19,4 +19,8 @@ h1
 canvas {
     border: 10px solid #a04848;
     background: #55517a;
+}
+
+footer {
+    background: #aaaaaa;
 }
