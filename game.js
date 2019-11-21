@@ -127,7 +127,7 @@ function update() {
   enemyCheck(player, enemy);
 
   ctx.fill();
-  ctx.fillStyle = '#afdcfa';
+  ctx.fillStyle = '#afdcfb';
   ctx.fillRect(player.x, player.y, player.width, player.height);
 
   ctx.fillStyle = '#fffb00';
