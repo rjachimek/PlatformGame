@@ -10,5 +10,5 @@ Veeery simple platformer created during Coders Camp.
  * CSS
  * JAVASRIPT
 
-![Screenshot](images/mobilemockup1.png)
+![Screenshot](images/game.png)
 
