@@ -40,6 +40,12 @@ const enemy = {
   width: 15,
   height: 15,
 };
+const extraGoals = {
+  x: Math.random() * cw,
+  y: Math.random() * ch,
+  width: 10,
+  height: 10,
+};
 
 let platforms = []
 for (i = 0; i < 15; i++) {
@@ -133,7 +139,7 @@ function update() {
   ctx.fillStyle = '#fffb00';
   ctx.fillRect(goal.x, goal.y, goal.width, goal.height);
 
-  ctx.fillStyle = '#ff00dd';
+  ctx.fillStyle = '#ff0000';
   ctx.fillRect(enemy.x, enemy.y, enemy.width, enemy.height);
 
   requestAnimationFrame(update);
