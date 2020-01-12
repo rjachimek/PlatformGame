@@ -1,7 +1,7 @@
 
 
 #  Simple Platformer
-Veeery basic platformer
+Basic platformer
 
 **[Demo here](https://rjachimek.github.io/PlatformGame/.)**
 
